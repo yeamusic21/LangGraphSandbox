@@ -1,0 +1,29 @@
+CREATE VENV
+-------------------------
+C:\Users\LocationFor\Python312\python -m venv LgSbPyVenv
+
+PYTHON VERSION
+-------------------------
+Python 3.12.5
+
+INITIALIZE VENV 
+-------------------------
+cd LgSbPyVenv
+.\scripts\activate
+cd ..
+
+PIP INSTALLS
+-------------------------
+pip install -r langchain-academy-main\langchain-academy-main\requirements.txt
+pip install langchain-ollama
+pip install python-dotenv
+
+OLLAMA INSTALLS
+-------------------------
+https://ollama.com/
+ollama run llama3.1
+ollama run gemma2
+
+PATH UPDATES
+-------------------------
+set PATH=%PATH%;C:\Users\LocationFor\Ollama
