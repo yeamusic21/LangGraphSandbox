@@ -17,6 +17,13 @@ PIP INSTALLS
 pip install -r langchain-academy-main\langchain-academy-main\requirements.txt
 pip install langchain-ollama
 pip install python-dotenv
+pip install tavily-python 
+pip install wikipedia
+pip install arize-phoenix
+pip install arize-phoenix-otel
+pip install langchain_openai
+pip install openinference-instrumentation-langchain
+
 
 OLLAMA INSTALLS
 -------------------------
@@ -27,3 +34,19 @@ ollama run gemma2
 PATH UPDATES
 -------------------------
 set PATH=%PATH%;C:\Users\LocationFor\Ollama
+
+PHOENIX 
+-------------------------
+References:
+- https://docs.arize.com/phoenix/deployment/authentication
+*************
+CMD Steps:
+- set PHOENIX_ENABLE_AUTH=True
+- set PHOENIX_SECRET=passwordpassworderpwojbvpwinmbowhrogbnwroij23
+- phoenix serve
+*************
+UI Steps:
+- email: admin@localhost
+- old password: admin
+- new password: Halloween2024!
+- Created new API key and added to .env file
