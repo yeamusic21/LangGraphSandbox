@@ -34,7 +34,7 @@ builder.set_entry_point(GENERATE)
 
 
 def should_continue(state: List[BaseMessage]):
-    if len(state) > 6:
+    if len(state) > 2:
         return END
     return REFLECT
 
@@ -65,3 +65,4 @@ if __name__ == "__main__":
 
                                   """)
     response = graph.invoke(inputs)
+    print(response[-1].content)
