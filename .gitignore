@@ -1,2 +1,3 @@
 LgSbPyVenv/
 .env
+__pycache__

@@ -24,7 +24,6 @@ pip install arize-phoenix-otel
 pip install langchain_openai
 pip install openinference-instrumentation-langchain
 
-
 OLLAMA INSTALLS
 -------------------------
 https://ollama.com/
