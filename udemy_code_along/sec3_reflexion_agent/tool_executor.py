@@ -58,6 +58,7 @@ if __name__ == "__main__":
         endpoint="http://127.0.0.1:6006/v1/traces"
     )
     LangChainInstrumentor().instrument(tracer_provider=tracer_provider)
+    
     # invoke
     from langchain_core.messages import HumanMessage
     from cool_classes import AnswerQuestion, Reflection

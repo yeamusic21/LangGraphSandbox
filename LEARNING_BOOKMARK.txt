@@ -1,7 +1,6 @@
 RECENTLY COMPLETED
 ----------------------
-Reviewed chains.py and feel comfortable with that
+
 
 NEXT TO-DO ITEM
 ----------------------
-Need to review tool_executor.py and understand what is happening there ...
